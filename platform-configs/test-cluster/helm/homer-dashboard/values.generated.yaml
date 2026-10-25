@@ -107,6 +107,11 @@ dashboardConfig:
           url: "/alertmanager/"
           subtitle: "Alertmanager Dashboard"
           target: "_blank"
+        - name: "kyverno"
+          logo: "/assets/tools/kyverno.png"
+          url: "/kyverno/"
+          subtitle: "Policy Reporter Dashboard"
+          target: "_blank"
     - name: "DevOps Links"
       items:
         - name: "Secretsmanager"

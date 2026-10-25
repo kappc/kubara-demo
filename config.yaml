@@ -29,7 +29,7 @@ clusters:
             name: letsencrypt-staging
             server: https://acme-staging-v02.api.letsencrypt.org/directory
       crossplane:
-        status: disabled
+        status: enabled
       external-dns:
         status: disabled
       external-secrets:
@@ -39,11 +39,11 @@ clusters:
       kube-prometheus-stack:
         status: enabled
       kyverno:
-        status: disabled
+        status: enabled
       kyverno-policies:
-        status: disabled
+        status: enabled
       kyverno-policy-reporter:
-        status: disabled
+        status: enabled
       loki:
         status: disabled
       longhorn:
@@ -55,7 +55,7 @@ clusters:
       oauth2-proxy:
         status: disabled
       reloader:
-        status: disabled
+        status: enabled
       traefik:
         status: enabled
       velero:
